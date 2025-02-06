@@ -1,0 +1,54 @@
+.h11{
+    color: orange;
+    position:relative;
+    top: 2px;
+    left:10px;
+    text-shadow: 3px 3px 2px black;
+    font-style: italic;
+
+}
+.h31{
+    position:relative;
+    left: 13px;
+}
+
+img{
+    float: left;
+   
+}
+
+.welcome-paragraph::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+
+}
+.welcome-paragraph{
+    font-weight: bold;
+}
+
+.product-list a {
+    color: goldenrod;
+    font-weight: bold;
+    
+}
+.product-list a:visited {
+    color: goldenrod;
+}
+
+.product-list a:hover,
+.product-list a:focus{
+    color: green;
+}
+.product-list li{
+    margin-bottom: 10px;
+}
+.coppy-right{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 90%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
